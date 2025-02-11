@@ -117,6 +117,7 @@ vim.keymap.set('n', '<C-k>', '<C-w><C-k>', { desc = 'Move focus to the upper win
 
 -- Copy path of the relative file
 vim.keymap.set('n', '<leader>cr', "<cmd>let @+=expand('%')<CR>", { desc = 'Get relative path for the current buffer' })
+vim.keymap.set('n', '<leader>to', '<cmd>Oil<CR>', { desc = 'Open Oil buffer' })
 
 -- [[ Basic Autocommands ]]
 --  See `:help lua-guide-autocommands`
